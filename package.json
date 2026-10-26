@@ -1,0 +1,30 @@
+{
+  "name": "the-white-wolf",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/systems.test.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/cinzel": "^5.2.4",
+    "@fontsource/inter": "^5.2.8",
+    "lucide-react": "^0.468.0",
+    "next": "^16.4.3",
+    "phaser": "^3.90.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
